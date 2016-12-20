@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE guiao SYSTEM "guiao.dtd" >
+<guiao>
+	<cabeçalho>
+		<personagens>
+			<personagem Personagem="Donna">
+				<nome>Donna</nome>
+				<descriçao>Secretaria</descriçao>
+			</personagem>
+		</personagens>
+		<titulo>Suits</titulo>
+		<autor>André Fonseca</autor>
+		<dataPublicaçao>
+			<dia>27</dia>
+			<mes>11</mes>
+			<ano>2016</ano>
+		</dataPublicaçao>
+		<sinopse>Serie televisiva sobre advogados </sinopse>
+	</cabeçalho>
+	<cenas>
+		<temporada id="idvalue0">
+			<episodio id="idvalue1">
+				<titulo>O inicio de tudo</titulo>
+				<personagens>
+					<personagem Personagem="Mike">
+						<nome>Mike</nome>
+						<descriçao>falso advogado com memoria fotografica</descriçao>
+					</personagem>
+				</personagens>
+				<cena contexto="Sala de conferencias do Hilton Hotel">
+					<adereço>mala cheia de droga</adereço>
+					<adereço>garrafa de whisky</adereço>
+					<fala Personagem="Harvey">Estou a precisar de um novo advogado
+						associado
+					</fala>
+					<fala Personagem="Mike">
+						Que tal eu Harvey ?!
+
+						<comentario>enquanto diz isto pega na mala</comentario>
+					</fala>
+				</cena>
+			</episodio>
+			<episodio id="idvalue2">
+				<titulo>Hotel Hilton</titulo>
+				<cena contexto="Sala de conferencias">
+					<fala Personagem="Mike">Achas que me consigo safar disto?</fala>
+					<adereço>Mala cheia de drogas</adereço>
+				</cena>
+			</episodio>
+			<titulo>Temporada1</titulo>
+		</temporada>
+		<temporada id="idvalue23">
+			<episodio id="idvalue12131">
+				<titulo>Episodio Piloto </titulo>
+				<personagens>
+					<personagem Personagem="Harvey">
+						<nome>Harvey</nome>
+						<descriçao>descriçao</descriçao>
+					</personagem>
+				</personagens>
+				<cena contexto="Firma de advogados">
+					<fala Personagem="Donna">Assim começa o dia, altura de fazer uma
+						caneca de café pro big boss
+					</fala>
+				</cena>
+				<cena contexto="Escritorio da firma">
+					<fala Personagem="Harvey">
+						Onde esta o meu café?!!!!
+						<comentario>enquanto boceja</comentario>
+					</fala>
+				</cena>
+			</episodio>
+			<titulo>Temporada 2</titulo>
+		</temporada>
+		</cenas>
+		</guiao>

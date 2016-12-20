@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:guiao xmlns:tns="http://www.example.org/guiao" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/guiao guiao.xsd ">
+  <tns:cabeçalho>
+    <tns:titulo>tns:titulo</tns:titulo>
+    <tns:autor>tns:autor</tns:autor>
+    <tns:autor>tns:autor</tns:autor>
+    <tns:dataPublicaçao>
+      <tns:dia>tns:dia</tns:dia>
+      <tns:mes>tns:mes</tns:mes>
+      <tns:ano>tns:ano</tns:ano>
+    </tns:dataPublicaçao>
+    <tns:Personagens ID="idvalue0">
+    	<tns:nome>tns:nome</tns:nome>
+    	<tns:descriçao>tns:descriçao</tns:descriçao>
+    </tns:Personagens>
+  </tns:cabeçalho>
+  <tns:cenas>
+  	<tns:Temporada ID_Temporada="idvalue01">
+  		<tns:titulo>tns:titulo</tns:titulo>
+  		<tns:episodios ID_Episodio="idvalue1">
+  			<tns:titulo>tns:titulo</tns:titulo>
+  			<tns:Cena contexto="">
+  				<tns:fala ID="idvalue0">
+  					<tns:texto>tns:texto</tns:texto>
+  				</tns:fala>
+  				<tns:refere ID="idvalue0">
+  					<tns:texto>tns:texto</tns:texto>
+  				</tns:refere>
+  				<tns:adereço>tns:adereço</tns:adereço>
+  				<tns:adereço>tns:adereço</tns:adereço></tns:Cena>
+  		</tns:episodios>
+  	</tns:Temporada></tns:cenas>
+</tns:guiao>

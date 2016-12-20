@@ -1,0 +1,84 @@
+@CHARSET "ISO-8859-1";
+
+BODY {
+	background-color: lightGray;	
+}
+
+H1,H2,H3,H4,TH	{
+	background-color: lightblue;
+	border: 3px solid green;
+	  width: 98%;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-family:	arial, helvetiva;
+	
+}
+
+ul,li {
+    margin: 5px;
+    font-size: 110%;
+    font-style: normal;
+    font-family: arial, helvetiva;
+}
+
+p {
+    text-indent: 10px;
+    font-size: 110%;
+    font-style: normal;
+    font-family: arial, helvetiva;
+    font-weight: bold;
+}
+
+table, th, td {
+   border: 2px solid black;
+    width: 50%;
+    height: 24px;
+    padding: 8px;
+    font-family:arial, helvetiva;
+    font-weight: bold;
+    content: center;
+}
+
+div#cabecalho,#navegacao{
+	 border: 3px solid green;
+     padding: 8px;
+}
+
+div#data{
+	background-color: ;
+	margin: auto;
+    width: 97%;
+    border: 3px solid green;
+    padding: 8px;
+}
+
+div#autores,#personagens,#sinopse,#listaPersonagens,#listaAderecos{
+	margin-top: 0.5cm;
+	background-color: lightblue;
+    width: 97%;
+    border: 3px solid green;
+    padding: 8px;
+     font-family:arial, helvetiva;
+    font-weight: bold;
+}
+
+div#navegacao.#cena,#fala,#temporada,#episodio,#partes{
+	background-color: lightblue;
+    width: 97%;
+    border: 3px solid green;
+    padding: 8px;
+    font-family:arial, helvetiva;
+}
+a{
+	 background-color: cyan;
+}
+ p.upperCase{
+ text-transform: capitalize;
+ }
+ p#pers{
+ text-transform: capitalize;
+ margin-top:7mm;
+ }
+ div#cena{
+   margin-left: 7cm;
+ }

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE guiao SYSTEM "guiao.dtd" >
+<guiao>
+	<cabeçalho>
+		<personagens>
+			<personagem Personagem="idvalue0">
+				<nome>Melkor</nome>
+				<descriçao>The first Dark Lord</descriçao>
+			</personagem>
+			<personagem Personagem="idvalue1">
+				<nome>Celebrimbor</nome>
+				<descriçao> Ñoldorin prince</descriçao>
+			</personagem>
+			<personagem Personagem="idvalue2">
+				<nome>Fëanor</nome>
+				<descriçao> the Ñoldor king</descriçao>
+			</personagem>
+		</personagens>
+		<titulo>Trabalho nº1 da cadeira Processamento de documentos
+			estruturados</titulo>
+		<autor>
+			André Fonseca</autor>
+		<autor>J. R. R. Tolkien</autor>
+		<dataPublicaçao>
+			<dia>03</dia>
+			<mes>11</mes>
+			<ano>2016</ano>
+		</dataPublicaçao>
+	</cabeçalho>
+	<cenas>
+		<partes id="idvalue14">
+			<titulo>The Quest of the Silmaril</titulo>
+			<personagens>
+				<personagem Personagem="idvalue3">
+					<nome> Beren</nome>
+					<descriçao>Human</descriçao>
+				</personagem>
+			</personagens>
+			<cena contexto="first age of middle earth">
+				
+				<fala Personagem="idvalue0">i am seeking to recover a Silmaril,<comentario>comentario</comentario></fala>
+				<fala Personagem="idvalue0"></fala>
+				<refere Personagem="idvalue0">refere</refere></cena>
+			<cena contexto="first age of middle earth">
+				<refere Personagem="idvalue0">refere</refere>
+				<fala Personagem="idvalue0">
+					<comentario>comentario</comentario></fala>
+				<adereço>adereço</adereço>
+				<fala Personagem="idvalue0"></fala>
+				<refere Personagem="idvalue0">refere</refere>
+				<adereço>adereço</adereço></cena>
+		</partes></cenas>
+</guiao>
