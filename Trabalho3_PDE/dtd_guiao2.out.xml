@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:foaf="http://xmlns.com/foaf/spec/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rep="http://www.alunos.dcc.fc.up.pt/~up201006344/">
+	<rdf:Description rdf:about="http://www.example.com/xml">
+		<dc:title>Suits</dc:title>
+		<dc:date>27-11-2016</dc:date>
+		<dc:creator>André Fonseca</dc:creator>
+		<rep:characters>
+			<rdf:Bag>
+				<foaf:name>Donna</foaf:name>
+				<dc:description>Secretaria</dc:description>
+			</rdf:Bag>
+		</rep:characters>
+		<dc:description>Serie televisiva sobre advogados </dc:description>
+
+		<rep:Temporada>
+			<rdfs:Class rdf:about="temporada()">
+				<rdfs:subClassOf rdf:resource="guiao" />
+				<dc:title>Temporada1</dc:title>
+				<rep:episodio>
+					<rdfs:Class rdf:about="episodio()">
+						<rdfs:subClassOf rdf:resource="temporada" />
+						<dc:title>O inicio de tudo</dc:title>
+						<foaf:name>Sala de conferencias do Hilton Hotel</foaf:name>
+					</rdfs:Class>
+				</rep:episodio>
+				<rep:episodio>
+					<rdfs:Class rdf:about="episodio()">
+						<rdfs:subClassOf rdf:resource="temporada" />
+						<dc:title>Hotel Hilton</dc:title>
+						<foaf:name>Sala de conferencias</foaf:name>
+					</rdfs:Class>
+				</rep:episodio>
+			</rdfs:Class>
+		</rep:Temporada>
+		<rep:Temporada>
+			<rdfs:Class rdf:about="temporada()">
+				<rdfs:subClassOf rdf:resource="guiao" />
+				<dc:title>Temporada 2</dc:title>
+				<rep:episodio>
+					<rdfs:Class rdf:about="episodio()">
+						<rdfs:subClassOf rdf:resource="temporada" />
+						<dc:title>Episodio Piloto </dc:title>
+						<foaf:name>Firma de advogados</foaf:name>
+						<foaf:name>Escritorio da firma</foaf:name>
+					</rdfs:Class>
+				</rep:episodio>
+			</rdfs:Class>
+		</rep:Temporada>
+
+	</rdf:Description>
+</rdf:RDF>

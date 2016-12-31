@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ENTITY % PCD "(#PCDATA)">
+
+<!ELEMENT guiao (cabeçalho,cenas)>
+<!ELEMENT cabeçalho (personagens?,titulo,autor+,dataPublicaçao,sinopse?)>
+<!ELEMENT dataPublicaçao (dia,mes,ano)>
+<!ELEMENT titulo %PCD;>
+<!ELEMENT autor %PCD;>
+<!ELEMENT dia %PCD;>
+<!ELEMENT mes %PCD;>
+<!ELEMENT ano %PCD;>
+<!ELEMENT sinopse %PCD;>
+
+<!ELEMENT personagens (personagem)+>
+<!ELEMENT personagem (nome,descriçao)>
+
+<!ATTLIST personagem
+	Personagem ID #REQUIRED >
+	
+<!ELEMENT nome %PCD;>
+<!ELEMENT descriçao %PCD;>
+
+<!ELEMENT cenas (personagens?,( temporada* | episodio* | partes* |cena*))>
+
+<!ELEMENT temporada (episodio+,titulo,(personagens)?,(sinopse)?)>
+<!ATTLIST temporada
+	id ID #REQUIRED>
+
+<!ELEMENT episodio (titulo,(personagens)?,(sinopse)?,cena+)>
+<!ATTLIST episodio
+	id ID #REQUIRED>
+	
+<!ELEMENT partes (titulo,(personagens)?,(sinopse)?,cena+)>
+<!ATTLIST partes
+	id ID #REQUIRED>
+	
+<!ELEMENT cena (#PCDATA | fala | refere |comentario |adereço )*>
+<!ATTLIST cena
+	contexto CDATA #IMPLIED>
+	
+<!ELEMENT fala (#PCDATA | comentario)*>
+<!ATTLIST fala
+	Personagem IDREF #REQUIRED
+	>
+
+<!ELEMENT comentario %PCD;>
+<!ELEMENT refere %PCD;>
+<!ATTLIST refere
+	Personagem IDREF #REQUIRED>
+<!ELEMENT adereço %PCD;>
